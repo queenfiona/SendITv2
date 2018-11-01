@@ -4,4 +4,5 @@ SendIT is a courier service that helps users deliver parcels to different destin
 Base branch for ui templates
 # Setting development environment
 Set development environment
+Finished setting up development environment
 
