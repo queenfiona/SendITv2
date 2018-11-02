@@ -1,5 +1,6 @@
 body{	
 	font-size: 15px,1.5,Arial,Helvetica,Sans-serif;
+	font-size: 15px,1.5,Arial,Helvetica;
 	padding: 0;
 	margin: 0;
 	/*background-color: #f4f4f4;*/
@@ -31,7 +32,9 @@ ul #card{
 	color: #ff0000;
 }
 
+
 #formSubmit input[type="submit"]{
+input[type="submit"]{
 	background-color: #007E33;
 	border-radius: 25px;
 }
@@ -75,6 +78,11 @@ table td{
 
 .sf{
 	float: left;
+  }
+
+.parcel{
+	
+
 }
 
 /*Header*/
@@ -169,6 +177,8 @@ header a:hover{
 
 #card input[type='submit']{
 	position: center;
+	background-color: #007E33;
+	border-radius: 25px;
 }
 
 #card #tos{
@@ -239,7 +249,10 @@ header a:hover{
 #formDiv, #listOfParcelOrders{
 	display: inline-block;
 }
+
 #userProfile button,#pdc-btn{
+  }
+#userProfile button{
 	border-radius:25px;
 	text-decoration: none;
 	background-color: #0099cc; 
@@ -281,6 +294,14 @@ header a:hover{
 	padding-right: 20px;
 	
 }
+
+ 
+
+#parcelForm{
+	display: inline;
+ }
+
+
 /*footer*/
 footer{
 	width: 100%;
@@ -294,10 +315,12 @@ footer{
 	bottom:0;
 	position: fixed;
 	margin-bottom: 0px;
+  }
+
+
 
 /*Media queries*/
-
-@media screen and(max-width: 768px){
+@media(max-width: 768px){
 	header, header nav, header nav li{
 		float: none;
 		text-align:center;
