@@ -1,4 +1,5 @@
 body{	
+	font-size: 15px,1.5,Arial,Helvetica,Sans-serif;
 	font-size: 15px,1.5,Arial,Helvetica;
 	padding: 0;
 	margin: 0;
@@ -9,6 +10,7 @@ body{
 .container{
 	width: 80%;
 	margin: auto;
+	text-align: center;
 	overflow: hidden;
 }
 
@@ -30,7 +32,65 @@ ul #card{
 	
 }
 
+.delete{
+	color: #ff0000;
+}
 
+
+#formSubmit input[type="submit"]{
+input[type="submit"]{
+	background-color: #007E33;
+	border-radius: 25px;
+}
+
+.pf{
+	float: left;
+	margin:auto;
+	padding:8px;
+}
+
+.btn{
+	padding: 4px;
+	border:none;
+	background-color: inherit;
+	font-size: 15px;
+}
+a{
+	text-decoration: none;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+table th{
+	text-align: left;
+	background-color: #808080;
+	color:#ffffff;
+	padding: 4px 30px 4px 8px;
+	text-transform: uppercase;
+}
+a{
+	text-decoration: none
+}
+
+table td{
+	border:1px solid #e3e3e3;
+	padding:4px 8px;
+}
+#top .counts{
+	float: left;
+	display: inline-block;
+}
+
+.sf{
+	float: left;
+  }
+
+.parcel{
+	
+
+}
 
 /*Header*/
 header{
@@ -67,7 +127,8 @@ header nav{
 }
 
 header h1{
-	margin: auto;	
+	margin: auto;
+	padding: 0;	
 }
 
 header a:hover{
@@ -146,6 +207,117 @@ header a:hover{
 	display: inline;
 }
 
+ #something{
+    width: 100%;   
+    padding: 0;
+    margin: 0;        
+}
+
+#parcelForm{
+	display: block;
+}
+
+#forgotPassword{
+	float: right;
+	padding: 0;
+	margin: 0;
+}
+
+#parcelForm select{
+	padding: 6px;
+	width: 120px;
+	border:none;
+	background-color: inherit;
+	border-bottom: 1px solid #000000;	
+}
+
+#parcelForm input[type='submit']{
+	width: 100px;
+}
+
+/*#parcelForm button{
+	padding: 4px;
+	border:none;
+	background-color: inherit;
+	font-size: 20px;
+}*/
+
+#parcelForm input[type='text']{
+	border-radius: 25px;
+	padding: 6px;
+}
+
+
+#parcelForm select{
+	text-align-last: center;
+}
+
+#editDestination select{
+	background-color: inherit;
+	border:none;
+	position: fixed;
+}
+
+#formDiv, #listOfParcelOrders  h1{
+	text-align: center;
+}
+
+#formDiv, #listOfParcelOrders{
+	display: inline-block;
+}
+
+#userProfile button,#pdc-btn{
+  }
+#userProfile button{
+	border-radius:25px;
+	text-decoration: none;
+	background-color: #0099cc; 
+	padding:6px;
+}
+
+.counts{
+	margin: 20px 0px 0px 120px;
+}
+
+.counts .count{
+	float: left;
+	width: 80%;
+	padding:10px;
+	text-align: center;
+	background-color:#f5f5dc;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+
+#search{
+	display: inline-block;
+}
+#search form{
+	float: left;
+	margin-top: 15px;
+}
+
+#search input[type='text']{
+	padding: 4px;
+	height: 25px;
+	width: 250px;
+}
+
+#search button{
+	height: 38px;
+	border:none;
+	padding-left: 20px;
+	padding-right: 20px;
+	
+}
+
+ 
+
+#parcelForm{
+	display: inline;
+ }
+
+
 
 /*footer*/
 footer{
@@ -160,6 +332,7 @@ footer{
 	bottom:0;
 	position: fixed;
 }
+
 
 /*Media queries*/
 @media(max-width: 768px){
