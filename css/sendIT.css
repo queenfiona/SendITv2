@@ -28,10 +28,6 @@ ul #card{
 	color: #0099cc;
 }
 
-.parcel{
-	
-}
-
 .delete{
 	color: #ff0000;
 }
@@ -200,14 +196,6 @@ header a:hover{
 #card h1{	
     font-size: 40px;  
     display: block;
-    width: 100%;           
-}
-
-#parcelForm{
-	display: inline;
-}
-
- #something{
     width: 100%;   
     padding: 0;
     margin: 0;        
@@ -318,7 +306,6 @@ header a:hover{
  }
 
 
-
 /*footer*/
 footer{
 	width: 100%;
@@ -331,7 +318,9 @@ footer{
 	left: 0;
 	bottom:0;
 	position: fixed;
-}
+	margin-bottom: 0px;
+  }
+
 
 
 /*Media queries*/
