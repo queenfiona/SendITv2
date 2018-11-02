@@ -9,6 +9,7 @@ body{
 .container{
 	width: 80%;
 	margin: auto;
+	text-align: center;
 	overflow: hidden;
 }
 
@@ -26,11 +27,50 @@ ul #card{
 	color: #0099cc;
 }
 
+.delete{
+	color: #ff0000;
+}
+
+input[type="submit"]{
+	background-color: #007E33;
+	border-radius: 25px;
+}
+
+.pf{
+	float: left;
+	margin:auto;
+	padding:8px;
+}
+
+.btn{
+	padding: 4px;
+	border:none;
+	background-color: inherit;
+	font-size: 15px;
+}
+a{
+	text-decoration: none;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+table th{
+	text-align: left;
+	background-color: #808080;
+	color:#ffffff;
+	padding: 4px 30px 4px 8px;
+}
+
+table td{
+	border:1px solid #e3e3e3;
+	padding:4px 8px;
+}
+
 .parcel{
 	
 }
-
-
 
 /*Header*/
 header{
@@ -124,8 +164,10 @@ header a:hover{
 
 #card input[type='submit']{
 	position: center;
+<<<<<<< HEAD
+
 	background-color: #007E33;
-	border-radius: 25px;
+	border-radius: 25p
 }
 
 #card #tos{
@@ -139,12 +181,76 @@ header a:hover{
 #card h1{	
     font-size: 40px;  
     display: block;
+<<<<<<< HEAD
+    width: 100%;   
+    padding: 0;
+    margin: 0;        
+}
+
+#parcelForm{
+	display: block;
+}
+
+#forgotPassword{
+	float: right;
+	padding: 0;
+	margin: 0;
+}
+
+#parcelForm select{
+	padding: 6px;
+	width: 120px;
+	border:none;
+	background-color: inherit;
+	border-bottom: 1px solid #000000;	
+}
+
+#parcelForm input[type='submit']{
+	width: 100px;
+}
+
+/*#parcelForm button{
+	padding: 4px;
+	border:none;
+	background-color: inherit;
+	font-size: 20px;
+}*/
+
+#parcelForm input[type='text']{
+	border-radius: 25px;
+	padding: 6px;
+}
+
+
+#parcelForm select{
+	text-align-last: center;
+}
+
+#editDestination select{
+	background-color: inherit;
+	border:none;
+	position: fixed;
+}
+
+#formDiv, #listOfParcelOrders  h1{
+	text-align: center;
+}
+
+#formDiv, #listOfParcelOrders{
+	display: inline-block;
+}
+#userProfile button{
+	border-radius:25px;
+	text-decoration: none;
+	background-color: #0099cc; 
+	padding:6px;
+}
+
     width: 100%;           
 }
 
 #parcelForm{
 	display: inline;
-}
 
 
 /*footer*/
@@ -158,6 +264,9 @@ footer{
 	text-align:center;
 	left: 0;
 	bottom:0;
+<<<<<<< HEAD
+	position: fixed;
+=====
 }
 
 /*Media queries*/
