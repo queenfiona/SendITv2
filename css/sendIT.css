@@ -1,6 +1,5 @@
 body{	
 	font-size: 15px,1.5,Arial,Helvetica,Sans-serif;
-	font-size: 15px,1.5,Arial,Helvetica;
 	padding: 0;
 	margin: 0;
 	/*background-color: #f4f4f4;*/
@@ -10,13 +9,15 @@ body{
 .container{
 	width: 80%;
 	margin: auto;
-	text-align: center;
 	overflow: hidden;
 }
 
 ul #card{
 	margin: 0;
 	padding:0;
+}
+.delete{
+	color: #ff0000;
 }
 
 .active{
@@ -28,17 +29,9 @@ ul #card{
 	color: #0099cc;
 }
 
-.delete{
-	color: #ff0000;
+.parcel{
+	
 }
-
-
-#formSubmit input[type="submit"]{
-input[type="submit"]{
-	background-color: #007E33;
-	border-radius: 25px;
-}
-
 .pf{
 	float: left;
 	margin:auto;
@@ -51,10 +44,20 @@ input[type="submit"]{
 	background-color: inherit;
 	font-size: 15px;
 }
-a{
-	text-decoration: none;
+
+input[type="submit"]{
+	background-color: #007E33;
+	border-radius: 25px;
 }
 
+#formSubmit input[type="submit"]{
+	background-color: #007E33;
+	border-radius: 25px;
+}
+
+a{
+	text-decoration: none
+}
 table{
 	border-collapse: collapse;
 }
@@ -64,16 +67,13 @@ table th{
 	background-color: #808080;
 	color:#ffffff;
 	padding: 4px 30px 4px 8px;
-	text-transform: uppercase;
-}
-a{
-	text-decoration: none
 }
 
 table td{
 	border:1px solid #e3e3e3;
 	padding:4px 8px;
 }
+
 #top .counts{
 	float: left;
 	display: inline-block;
@@ -83,10 +83,7 @@ table td{
 	float: left;
   }
 
-.parcel{
-	
 
-}
 
 /*Header*/
 header{
@@ -123,8 +120,7 @@ header nav{
 }
 
 header h1{
-	margin: auto;
-	padding: 0;	
+	margin: auto;	
 }
 
 header a:hover{
@@ -196,19 +192,9 @@ header a:hover{
 #card h1{	
     font-size: 40px;  
     display: block;
-    width: 100%;   
-    padding: 0;
-    margin: 0;        
-}
-
-#parcelForm{
-	display: block;
-}
-
-#forgotPassword{
-	float: right;
-	padding: 0;
-	margin: 0;
+    width: 100%;           
+    padding: 0px;
+    margin: 0px;
 }
 
 #parcelForm select{
@@ -219,16 +205,11 @@ header a:hover{
 	border-bottom: 1px solid #000000;	
 }
 
-#parcelForm input[type='submit']{
-	width: 100px;
+#forgotPassword{
+	float: right;
+	padding: 0;
+	margin: 0;
 }
-
-/*#parcelForm button{
-	padding: 4px;
-	border:none;
-	background-color: inherit;
-	font-size: 20px;
-}*/
 
 #parcelForm input[type='text']{
 	border-radius: 25px;
@@ -249,24 +230,32 @@ header a:hover{
 #formDiv, #listOfParcelOrders  h1{
 	text-align: center;
 }
+#listOfParcelOrders{
+	margin: auto;
+	align-content:center;
+	align:left;
+
+}
 
 #formDiv, #listOfParcelOrders{
 	display: inline-block;
+	align-items: center;
+	margin: 0;
 }
 
-#userProfile button,#pdc-btn{
-  }
+#userProfile{
+	text-align: center;
+}
+
 #userProfile button{
 	border-radius:25px;
 	text-decoration: none;
 	background-color: #0099cc; 
 	padding:6px;
 }
-
-.counts{
-	margin: 20px 0px 0px 120px;
+#addOrder{
+	width:120%;
 }
-
 .counts .count{
 	float: left;
 	width: 80%;
@@ -283,6 +272,7 @@ header a:hover{
 #search form{
 	float: left;
 	margin-top: 15px;
+	text-align: center;
 }
 
 #search input[type='text']{
@@ -298,9 +288,6 @@ header a:hover{
 	padding-right: 20px;
 	
 }
-
- 
-
 #parcelForm{
 	display: inline;
  }
@@ -317,11 +304,11 @@ footer{
 	text-align:center;
 	left: 0;
 	bottom:0;
+}
+
+#adminFooter,#parcelFooter{
 	position: fixed;
-	margin-bottom: 0px;
-  }
-
-
+}
 
 /*Media queries*/
 @media(max-width: 768px){
