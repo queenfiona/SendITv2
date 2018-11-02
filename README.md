@@ -6,6 +6,7 @@ Base branch for ui templates
 Branch for parcel delivery service template
 # Setting development environment
 Set development environment
+# Finish setup environment
 Finished setting up development environment
 # Created user login feature branch
 Branch for login template
