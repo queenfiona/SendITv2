@@ -4,24 +4,8 @@ SendIT is a courier service that helps users deliver parcels to different destin
 Base branch for ui templates
 # Created admin branch
 Branch for admin template
-# Created user profile feature branch
-Branch for user profile features
-# Finish Feature
-Compelete user profile feature
-# Created parcel delivery service branch
-Branch for parcel delivery service template
 # Setting development environment
 Set development environment
-# Finish setup environment
 Finished setting up development environment
-# Created user login feature branch
-Branch for login template
-# Finish Feature
-Finishing the feature
-# Created user registration feature branch
-Branch for registration template
-# Finish Feature
-Finishing feature
-
 
 
