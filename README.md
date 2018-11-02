@@ -16,4 +16,6 @@ Finished setting up development environment
 Branch for login template
 # Created user registration feature branch
 Branch for registration template
+# Finish Feature
+Finishing feature
 
