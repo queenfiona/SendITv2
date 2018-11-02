@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="A courier service for parcel delivery">
+	<meta name="author" content="Fiona Murie">
+	<link rel="stylesheet" type="text/css" href="../css/sendIT.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>SendIT|Parcel Delivery Service</title>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div id="logo">
+				<h1>SendIT</h1>	
+			</div>	
+			<nav>
+				<ul>
+					<li><a href="landingPage.html">Home</a></li>
+					<li><a class="active" href="parcel.html">Parcel Delivery Service </a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="registration.html">Register</a></li>
+					<li><a href="login.html">Login</a></li>
+				</ul>
+			</nav>		
+		</div>
+	</header>
+
+	<section>
+		<div class="container">			
+			<div id="formDiv">
+				<h1>PARCEL DELIVERY SERVICE</h1>
+				<form id="parcelForm">
+					<p class="pf">
+						<input type="text" name="itemshipped" placeholder="ItemShipped">
+					</p>
+					<p class="pf">
+						<select name="weightCategories">
+							<option value="Weight"> Weight</option>
+							<option value="0.1 - 2.0 Kg">0.1 - 2.0 Kg</option>
+							<option value="2.1 - 4.0 Kg">2.1 - 4.0 Kg</option>	
+							<option value="4.1 - 6.0 Kg">4.1 - 6.0 Kg</option>
+							<option value="6.1 - 8.0 Kg">6.1 - 8.0 Kg</option>
+						</select>
+					</p>
+					<p class="pf">
+						<select name="origin">
+							<option value="Origin" selected>Origin</option>
+							<option value="Kitale">Kitale</option>	
+							<option value="Mombasa">Mombasa</option>
+							<option value="Nairobi">Nairobi</option>						
+						</select>
+					</p>
+					<p class="pf">
+						<select name="destination">
+							<option value="Destination" selected>Destination</option>
+							<option value="Kitale">Kitale</option>	
+							<option value="Mombasa">Mombasa</option>
+							<option value="Nairobi">Nairobi</option>						
+						</select>
+					</p>
+					<p class="pf">
+						<select name="status">
+							<option value="Status" selected readonly>Status</option>
+							<option value="Delivered">Delivered</option>							
+							<option value="Cancelled">Cancelled</option>
+						</select>
+					</p>
+					<p class="pf">
+						<input type="submit" name="order" value="Place Order">
+					</p>
+					
+				</form>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="container">
+			<div id="listOfParcelOrders">
+				<h1>LIST OF PARCEL DELIVERY ORDERS</h1>
+				<table cellspacing="10" id="lpoTable">
+					<tr>
+						<th colspan="1">Item Shipped</th>
+						<th colspan="1">Origin</th>
+						<th colspan="1">Destination</th>
+						<th colspan="2">Pickup Location</th>
+						<th colspan="2">Price</th>
+						<th colspan="2">Status</th>						
+					</tr>
+					<tr>
+						<td colspan="1">Book</td>
+						<td colspan="1">Nairobi</td>
+						<td colspan="1">Kitale</td>
+						<td colspan="2">Kitale Branch Office</td>
+						<td colspan="2">KSh.500</td>
+						<td colspan="2">Not Delivered</td>
+						<td><button class="btn"><i class="fa fa-trash delete"> Cancel</i></button></td>
+						<td><button class="btn"><i class="fa fa-pencil"> Edit</i></button></td>
+
+					</tr>
+					<tr>
+						<td colspan="1">Watch</td>
+						<td colspan="1">Nairobi</td>
+						<td colspan="1">Mombasa</td>
+						<td colspan="2">Mombasa Branch Office</td>
+						<td colspan="2">KSh.500</td>
+						<td colspan="2">Not Delivered</td>
+						<td><button class="btn"><i class="fa fa-trash delete"> Cancel</i></button></td>
+						<td><button class="btn"><i class="fa fa-pencil"> Edit</i></button></td>
+
+					</tr>
+					<tr>
+						<td colspan="1">Clothes</td>
+						<td colspan="1">Nairobi</td>
+						<td colspan="1">Kitui</td>
+						<td colspan="2">Kitui Branch Office</td>
+						<td colspan="2">KSh.1000</td>
+						<td colspan="2">Delivered</td>
+						<td><button class="btn"><i class="fa fa-trash delete"> Cancel</i></button></td>
+						<td><button class="btn"><i class="fa fa-pencil"> Edit</i></button></td>
+
+					</tr>
+				</table>
+				
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="container">
+			<div id="userProfile">
+				<button id="userProfile"> User's Profile </button>
+			</div>						
+		</div>
+	</section>
+
+	<footer>
+		<div class="container">
+			<p> SendIT Courier Service, Copyright &copy 2018</p>				
+		</div>			
+	</footer>
+
+
+</body>
+</html>
