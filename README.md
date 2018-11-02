@@ -7,5 +7,11 @@ Branch for parcel delivery service template
 # Setting development environment
 Set development environment
 Finished setting up development environment
+# Created user login feature branch
+Branch for login template
+# Created user registration feature branch
+Branch for registration template
+
+
 
 

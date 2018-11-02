@@ -68,6 +68,10 @@ table td{
 	padding:4px 8px;
 }
 
+.parcel{
+	
+}
+
 /*Header*/
 header{
 	background: #ffffff;
@@ -160,6 +164,10 @@ header a:hover{
 
 #card input[type='submit']{
 	position: center;
+<<<<<<< HEAD
+
+	background-color: #007E33;
+	border-radius: 25p
 }
 
 #card #tos{
@@ -173,6 +181,7 @@ header a:hover{
 #card h1{	
     font-size: 40px;  
     display: block;
+<<<<<<< HEAD
     width: 100%;   
     padding: 0;
     margin: 0;        
@@ -237,6 +246,13 @@ header a:hover{
 	padding:6px;
 }
 
+    width: 100%;           
+}
+
+#parcelForm{
+	display: inline;
+
+
 /*footer*/
 footer{
 	width: 100%;
@@ -248,7 +264,9 @@ footer{
 	text-align:center;
 	left: 0;
 	bottom:0;
+<<<<<<< HEAD
 	position: fixed;
+=====
 }
 
 /*Media queries*/
