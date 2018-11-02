@@ -6,4 +6,8 @@ Base branch for ui templates
 Branch for login template
 # Finish Feature
 Finishing feature
+# Created user registration feature branch
+Branch for registration template
+
+
 
