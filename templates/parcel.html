@@ -8,6 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="../css/sendIT.css">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<title>SendIT|Parcel Delivery Service</title>
+	<script type="text/javascript" src="../js/sendIT.js"></script>
 </head>
 <body>
 	<header>
@@ -21,7 +22,7 @@
 					<li><a class="active" href="parcel.html">Parcel Delivery Service </a></li>
 					<li><a href="about.html">About Us</a></li>
 					<li><a href="registration.html">Register</a></li>
-					<li><a href="login.html">Login</a></li>
+					<li><a href="landingPage.html">Logout</a></li>
 				</ul>
 			</nav>		
 		</div>
@@ -63,7 +64,8 @@
 					<p class="pf">
 						<select name="status">
 							<option value="Status" selected readonly>Status</option>
-							<option value="Delivered">Delivered</option>							
+							<option value="Delivered">Delivered</option>
+							<option value="In-transit">In-transit</option>							
 							<option value="Cancelled">Cancelled</option>
 						</select>
 					</p>
@@ -81,55 +83,55 @@
 				<h1>LIST OF PARCEL DELIVERY ORDERS</h1>
 				<table cellspacing="10" id="lpoTable">
 					<tr>
-						<th colspan="1">Item Shipped</th>
-						<th colspan="1">Origin</th>
-						<th colspan="1">Destination</th>
-						<th colspan="2">Pickup Location</th>
-						<th colspan="2">Price</th>
-						<th colspan="2">Status</th>						
+						<th>Item Shipped</th>
+						<th>Origin</th>
+						<th>Destination</th>
+						<th>Pickup Location</th>
+						<th>Price</th>
+						<th>Status</th>						
 					</tr>
 					<tr>
-						<td colspan="1">Book</td>
-						<td colspan="1">Nairobi</td>
-						<td colspan="1">Kitale</td>
-						<td colspan="2">Kitale Branch Office</td>
-						<td colspan="2">KSh.500</td>
-						<td colspan="2">Not Delivered</td>
+						<td>Book</td>
+						<td>Nairobi</td>
+						<td>Kitale</td>
+						<td>Kitale Branch Office</td>
+						<td>KSh.500</td>
+						<td>In-transit</td>
 						<td><button class="btn"><i class="fa fa-trash delete"> Cancel</i></button></td>
 						<td><button class="btn"><i class="fa fa-pencil"> Edit</i></button></td>
 
 					</tr>
 					<tr>
-						<td colspan="1">Watch</td>
-						<td colspan="1">Nairobi</td>
-						<td colspan="1">Mombasa</td>
-						<td colspan="2">Mombasa Branch Office</td>
-						<td colspan="2">KSh.500</td>
-						<td colspan="2">Not Delivered</td>
+						<td>Watch</td>
+						<td>Nairobi</td>
+						<td>Mombasa</td>
+						<td>Mombasa Branch Office</td>
+						<td>KSh.500</td>
+						<td>In-transit</td>
 						<td><button class="btn"><i class="fa fa-trash delete"> Cancel</i></button></td>
 						<td><button class="btn"><i class="fa fa-pencil"> Edit</i></button></td>
 
 					</tr>
 					<tr>
-						<td colspan="1">Clothes</td>
-						<td colspan="1">Nairobi</td>
-						<td colspan="1">Kitui</td>
-						<td colspan="2">Kitui Branch Office</td>
-						<td colspan="2">KSh.1000</td>
-						<td colspan="2">Delivered</td>
+						<td>Clothes</td>
+						<td>Nairobi</td>
+						<td>Kitui</td>
+						<td>Kitui Branch Office</td>
+						<td>KSh.1000</td>
+						<td>Delivered</td>
 						<td><button class="btn"><i class="fa fa-trash delete"> Cancel</i></button></td>
 						<td><button class="btn"><i class="fa fa-pencil"> Edit</i></button></td>
-
 					</tr>
 				</table>
 				
 			</div>
 		</div>
 	</section>
+
 	<section>
 		<div class="container">
 			<div id="userProfile">
-				<button id="userProfile"> User's Profile </button>
+				<button id="userProfile"><a href="profile.html"> User's Profile</a></button>
 			</div>						
 		</div>
 	</section>
